@@ -15,53 +15,94 @@
       <h1 class="flex justify-center mt-28 text-6xl text-[#0F9E86] font-bold"><span class="text-[#37BCF4]">Digital</span> Tasbih</h1>
     </section>
   </header>
-  <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-    <!--card 1-->
-    <section>
+  <main>
+   
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+       <!--card 1-->
       <div class="card w-96 bg-base-100 shadow-xl mt-16">
         <div class="card-body">
           <h2 class="card-title flex justify-center text-3xl text-[#514151]">Subhan Allah</h2>
           <div>
-            <p class="text-5xl flex justify-center my-5">0</p>
+            <p 
+            id="subhan-allah-display"
+            class="text-5xl flex justify-center my-5">
+            0</p>
           </div>
           <div class="card-actions ml-12 ">
-            <button class="p-3 rounded-lg uppercase text-white bg-[#22C55E] border-none">Incriment</button>
-            <button class="p-3 rounded-lg uppercase text-white bg-[#EF4444] border-none">Discriment</button>
+            <button 
+              id="subhan-allah-incriment-btn"
+              class="p-3 rounded-lg uppercase text-white bg-[#22C55E] border-none">
+              Incriment
+            </button>
+            <button 
+              id="subhan-allah-discriment-btn"
+              class="p-3 rounded-lg uppercase text-white bg-[#EF4444] border-none">
+              Discriment
+            </button>
           </div>
         </div>
       </div>
-    </section>
-    <!--card 2-->
-    <section>
+      <!--card 2-->
       <div class="card w-96 bg-base-100 shadow-xl mt-16">
         <div class="card-body">
           <h2 class="card-title flex justify-center text-3xl text-[#514151]">Alhamdulilah</h2>
           <div>
-            <p class="text-5xl flex justify-center my-5">0</p>
+            <p 
+              id="alhamdulilah-display"
+              class="text-5xl flex justify-center my-5">
+              0
+            </p>
           </div>
           <div class="card-actions ml-12 ">
-            <button class="p-3 rounded-lg uppercase text-white bg-[#22C55E] border-none">Incriment</button>
-            <button class="p-3 rounded-lg uppercase text-white bg-[#EF4444] border-none">Discriment</button>
+            <button 
+              id="alhamdulilah-incriment-btn"
+              class="p-3 rounded-lg uppercase text-white bg-[#22C55E] border-none">
+              Incriment
+            </button>
+            <button 
+              id="alhamdulilah-discriment-btn"
+              class="p-3 rounded-lg uppercase text-white bg-[#EF4444] border-none">
+              Discriment
+            </button>
           </div>
         </div>
       </div>
-    </section>
-    <!--card 3-->
-    <section>
+      <!--card 3-->
       <div class="card w-96 bg-base-100 shadow-xl mt-16">
         <div class="card-body">
           <h2 class="card-title flex justify-center text-3xl text-[#514151]">Allahuakber</h2>
           <div>
-            <p class="text-5xl flex justify-center my-5">0</p>
+            <p 
+              id="allahuakber-display"
+              class="text-5xl flex justify-center my-5">
+              0
+            </p>
           </div>
           <div class="card-actions ml-12 ">
-            <button class="p-3 rounded-lg uppercase text-white bg-[#22C55E] border-none">Incriment</button>
-            <button class="p-3 rounded-lg uppercase text-white bg-[#EF4444] border-none">Discriment</button>
+            <button 
+              id="allahuakber-incriment-btn"
+              class="p-3 rounded-lg uppercase text-white bg-[#22C55E] border-none">
+              Incriment
+            </button>
+            <button 
+              id="allahuakber-discriment-btn"
+              class="p-3 rounded-lg uppercase text-white bg-[#EF4444] border-none">
+              Discriment
+            </button>
           </div>
         </div>
       </div>
+      
     </section>
-  </main>
+
+    <div class="mt-7 flex justify-center">
+      <button 
+        id="reset-btn"
+        class="p-3 rounded-lg uppercase bg-[#EAB308] text-white">
+        Reset All Tasbih
+      </button>
+    </div>
+</main>
   <script src="js/script.js"></script>
 </body>
 
