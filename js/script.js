@@ -70,5 +70,16 @@ allahuakberDiscrimentBtn.addEventListener('click', function(){
   allahuakberDisplay.innerText = allahuakberInitialValue;
 })
 
+//---reset button
+resetBtn.addEventListener('click', function(){
+  subhanAllahDisplay.innerText = 0;
+  alhamdulilahDisplay.innerText = 0;
+  allahuakberDisplay.innerText = 0;
+
+  subhanAllahInitialValue = 0;
+  alhamdulilahInitialValue = 0;
+  allahuakberInitialValue = 0;
+})
+
 
 
