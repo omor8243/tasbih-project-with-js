@@ -55,6 +55,20 @@ alhamdulilahDiscrimentBtn.addEventListener('click', function(){
 })
 
 //-----card-3
+allahuakberIncrimentBtn.addEventListener('click', function(){
+  if(allahuakberInitialValue === 33){
+    return alert('Allahu akber Complete. Please Fillup anoter one')
+  }
+  allahuakberInitialValue += 1;
+  allahuakberDisplay.innerText = allahuakberInitialValue;
+})
+allahuakberDiscrimentBtn.addEventListener('click', function(){
+  if(allahuakberInitialValue === 0){
+    return alert('You can not added nagetive value');
+  }
+  allahuakberInitialValue -= 1;
+  allahuakberDisplay.innerText = allahuakberInitialValue;
+})
 
 
 
